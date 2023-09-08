@@ -48,7 +48,9 @@ So in this case, NPC will look for enemies near him, if have someone he will try
 
 ### Set and Get data
 Root node has a dictionary to keep information, for example in the CheckCloseEnemies node we will probably want to save a reference to the GameObject of the target, 
-for this purpose is enough to call 
-```SetData(string key, object value) as follows SetData("target", target.gameObject)```
+for this purpose is enough to call SetData(string key, object value) as follows:
+
+```SetData("target", target.gameObject)```
+
 Later in the AttackTarget we can check that value by calling GetData(string key) method.
 
