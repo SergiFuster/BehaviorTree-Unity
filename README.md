@@ -44,6 +44,10 @@ On the other side Sequence node evaluate the new child if the previous one was e
 
 So in this case, NPC will look for enemies near him, if have someone he will try to attack him, else he will start patroling.
 
+The resulting Behaviour Tree would be:
+
+![BehaviourTree](NPC.png)
+
 ## Functionalities
 
 ### Set and Get data
